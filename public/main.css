@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+canvas#app-canvas{
+	display: block;
+	/* border: 1px solid rgb(255, 0, 0); */
+	box-sizing: border-box;
+}
+
+.panel{
+	position: absolute;
+	right: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 180px;
+	height: 40px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 10px rgb(161, 161, 161);
+	border-radius: 5px;
+}
+.panel .icon{
+	margin-right: 10px;
+	background-color: rgb(250, 250, 250);
+	box-shadow: 0 0 5px rgb(161, 161, 161);
+	padding: 3px 5px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.panel .icon:last-child{
+	margin-right: 0;
+}
